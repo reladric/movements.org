@@ -1,0 +1,54 @@
+@charset "utf-8";
+.main {
+ text-align:center;	
+ padding: 40px;
+}
+.forms {
+line-height: .7cm;
+}
+body{
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color: #666;
+}
+h1 {
+ margin-top: 0;
+}
+/*body {
+ font-family: Arial, Helvetica, sans-serif;
+}*/
+.error{
+ background-color:#FFA6A6;
+}
+.valid{
+  background-color:#ABF8B5;
+}
+label{
+ text-align:left;
+ padding-left:45.1%;
+ font-size: 10px;
+ font-weight: bold;
+ text-transform: uppercase;
+ display: block;
+ clear: both;
+}
+label.check_radio {
+  padding-left:0%;
+ display:inline;
+ line-height: 1cm;
+}
+span{
+ display:inline;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ position:absolute;
+ font-size: 10px;
+ font-weight: bold;
+ padding-left:7px;
+ text-transform: uppercase;
+}
+.ierror{
+	color:#FF4242;
+	
+}
+.ivalid{
+	color:#009F28;
+}

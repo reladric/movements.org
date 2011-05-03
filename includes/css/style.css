@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*
+Sri Venkateswara College of Engineering - Website Theme
+Developed by the department of Computer Science and Engineering, SVCE
+Students : Thiagarajan ts, Vigneshwaran
+*/
+
+/* Style Sheet */
+
+/*Reset*/
+html, body, div, span,applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dd, dl, dt, li, ol, ul,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;font-weight: inherit;font-style: inherit;font-size: 100%;line-height: 1;font-family: inherit;text-align: left;	vertical-align: baseline;}
+a img, :link img, :visited img {border: 0;}
+table {border-collapse: collapse;border-spacing: 0;}
+ol, ul {list-style: none;}
+q:before, q:after,blockquote:before, blockquote:after {content: "";}
+
+/*Layout*/
+body {text-align: center;background:white;}
+
+#container{margin:0px auto;width:900px;}
+#header {float:left;width:900px;background:url(../images/header.png) no-repeat top;height:200px;}
+
+#mcontent{float:left;width:700px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:13px;}
+#inner{margin:10px;}
+#footer{width:840px;float:left;text-align:center;font-size:10px;padding:10px;margin:10px;border-top:1px solid #ccc;}
+a{font-style:"Palatino Linotype", "Book Antiqua", Palatino, serif;font-size:13px;}
+
+/*Menu*/
+#menu ul { 	list-style:none; width:100%;}
+#menu{ clear:both; }
+#menu ul li {	
+}
+#menu ul li a { float:left;width:17.9%;text-align:center;text-decoration:none;color:#333;padding:1%;background:#eee;font-family:Verdana, Geneva, sans-serif;	font-size:12px;border-right:1px solid #ccc;}
+#menu ul li a.last {border:none;}
+#menu ul li a:hover {background:#ccc;}
+#menu ul li a:active {	background:#333;color:#fff;}
+
+/*Notifications*/
+#who {border-bottom:1px solid #ccc;float:left; width:900px;padding:10px 0px;}
+#who p {float:right; font-size: 13px;}
+#who a { font:inherit; color: #BD2031;text-decoration:none;}
+#who a:hover{color:#000;}
+#mcontent #notif{background:#ffffe0;border:1px dotted #e6db55;padding:5px;margin:10px; width:730px;font-size:13px;text-align:center;float:left;font-family:Verdana, Geneva, sans-serif;}
+
+/*Content*/
+.form{font-size:13px;margin: 25px;width: auto;border-collapse: collapse;text-align: left;z-index:1;}
+.form input { border:none;border:1px solid #ccc	;width:150px;}
+.form textarea{border:none;border:1px solid #ccc;}
+.form td { padding:5px;}
+
+.sched{font-size:13px;width:700px;border-collapse: collapse;text-align: left;z-index:1;}
+.sched input { border:none;border:1px solid #ccc;width:120px;}
+.sched input.button { width : 100%; }
+.sched textarea{border:none;border:1px solid #ccc;width:120px;height:80px;}
+.sched td {padding:5px;vertical-align:middle;}
+.sched input.cb {width:25px;}
+
+h2 {font-family:Georgia, "Times New Roman", Times, serif;font-size:30px;padding:20px 0px 5px 0px;border-bottom:1px solid #ccc;text-align:center;margin:20px 0px;}
+h3 {font-family:Georgia, "Times New Roman", Times, serif;font-size:20px;padding:4px 15px;text-align:center;border-bottom:1px solid #ccc;margin:15px 0px;}
+#mcontent p {padding:10px;}
+
+.dispt { border:1px solid #ccc;width:80%;margin:5px auto;}
+.dispt td,.dispt th { padding:5px; border-left:1px solid #f1f1f1; border-right:1px solid #f1f1f1;}
+.dispt th { border-bottom: 1px solid #ccc; }
+
+.inactive{background-color:#f1f1f1;}
+
+.form-table {border-collapse:collapse;width:auto;margin:0px auto;font-family:Verdana, Geneva, sans-serif;font-size:12px;}
+.form-table td {padding:10px;vertical-align:top;}

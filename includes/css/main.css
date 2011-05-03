@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color: #666;
+}
+.top{
+	background-position:center;
+	text-align:center;
+	background-repeat:no-repeat;
+	height:110px;
+}
+.main {
+ text-align:center;	
+ padding: 40px;
+ line-height:26px;
+ clear:both;
+}
+.info{
+ text-align:center;	
+ padding: 40px;
+ float:right;
+}
+a{
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color: #666;
+}
+label{
+ text-align:left;
+ padding-left:45.1%;
+ font-size: 10px;
+ font-weight: bold;
+ text-transform: uppercase;
+ display: block;
+ clear: both;
+}
+label.check_radio {
+  padding-left:0%;
+ display:inline;
+ line-height: 1cm;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*
+Sri Venkateswara College of Engineering - Website Theme
+Developed by the department of Computer Science and Engineering, SVCE
+Students : Thiagarajan ts, Vigneshwaran
+*/
+
+/* Style Sheet */
+
+/*Login Form Styling */
+body {font: 70% verdana, arial, helvetica, sans-serif;text-align: center; /* for IE */}
+h2 {font:Georgia, "Times New Roman", Times, serif;font-size:20px;}
+#login-box {margin: 0 auto;	width:250px;background-color:#fcfcfc;padding:15px;border:1px dotted #d4d4d4;font-size:13px;}
+#login-table{text-align:right;display:table;}
+#login-table td{width:125px;}
+#login-table .box {text-align:left;}
+#login-box .text {width:120px;}
+.status {background-color:#CCCCCC;width:200px;padding:5px;margin:2px auto;display:block;border:1px dotted #333333;}
