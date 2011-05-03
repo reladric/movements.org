@@ -1,6 +1,6 @@
 <?php 
 /* Include Authentication Script */
-include_once('user.php');
+include_once('user.php') ;
 switch($authlevel)
 {
 	case 3 : break;
